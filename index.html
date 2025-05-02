@@ -23,7 +23,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet" />
  
   <!-- Hojas de estilo -->
-  <link rel="stylesheet" href="./vendor/normalize.css" />
   <link rel="stylesheet" href="./pages/index.css" />
 
   <!-- Favicon -->
@@ -51,11 +50,13 @@
           <p class="header__description">
             ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte energía y motivar tu creatividad.
           </p>
+        <!-------f------->
         <img
           class="header__image"
           src="images/inside_coffee_shop.png"
           alt="Imagen donde se muestra gente sentada en una cafetería"
         />
+        <!-------------->
       </div>
       <div class="header__footer">
         <div class="header__paraghraph">
@@ -133,7 +134,44 @@
         </form>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__content">
+        <div>
+          <img 
+            src="images/logo_coffeeshop_light.svg" 
+            alt="Logo de la cafetería tripple espresso" 
+            class="footer__logo"
+          />
+        </div>
+    
+        <div class="footer__circle"></div> <!-- decorativo -->
+    
+        <div class="footer__social">
+          <h4 class="footer__social-heading">Redes sociales</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="#" class="footer__social-link">
+                <img 
+                  src="images/facebook_white.svg" 
+                  alt="Logo de Facebook" 
+                  class="footer__social-icon" />
+                  Facebook
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__social-link">
+                <img 
+                  src="images/instagram_white.svg" 
+                  alt="Logo de Instagram" 
+                  class="footer__social-icon" />
+                  Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">© 2025 Diego Prieto Cazares</p>
+    </footer>
   </div>
 </body>
 </html>
