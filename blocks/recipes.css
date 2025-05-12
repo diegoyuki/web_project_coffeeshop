@@ -1,7 +1,13 @@
 .recipes {
     padding-bottom: 215px;
+    background-color: #0A2850;
+    color: white;
+    background-image: url(../images/background_recipes.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
 }
-
 .recipes__title {
     font-family: "Inter";
     font-style: normal;
