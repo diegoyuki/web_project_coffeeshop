@@ -2,11 +2,10 @@
     background-color: #ffffff;
     background-image: url(../images/background_header.svg);
     background-size: cover;
-    min-height: 720px;
-    max-height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .header__title {
@@ -14,6 +13,7 @@
     line-height: 72px;
     max-width: 709px;
     margin: 183px 0 0 80px;
+    
 }
 
 .header__title-span-accent {
@@ -44,8 +44,9 @@
 .header__image {
     height: 568px;
     width: 646px;
-    margin-top: 120px;
-    margin-right: 80px;
+    position: relative;
+    left: 1100px;
+    top: -320px; 
 }
 
 .header__footer {
