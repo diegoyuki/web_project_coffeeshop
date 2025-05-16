@@ -2,10 +2,11 @@
     background-color: #ffffff;
     background-image: url(../images/background_header.svg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .header__title {
@@ -45,7 +46,7 @@
     height: 568px;
     width: 646px;
     position: relative;
-    left: 950px;
+    left: 905px;
     top: -320px; 
 }
 
